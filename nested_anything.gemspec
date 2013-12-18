@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = NestedAnything::VERSION
   s.authors     = ["Graham Conzett"]
   s.email       = ["conzett@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/conzett/NestedAnything"
   s.summary     = "Accept nested attributes in Rails without the _attributes suffix."
   s.description = "Useful for JSON APIs"
 
