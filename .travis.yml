@@ -7,18 +7,13 @@ rvm:
   - 1.9.3
   - 2.0.0
   - ruby-head
-  - jruby-1.6.8
-  - jruby-1.7.6
+  - jruby-19mode
   - jruby-head
-  - rbx-2.0.0
-  - rbx-2.1.1
-  - rbx-head
 
 matrix:
   allowed_failures:
     - rvm: ruby-head
     - rvm: jruby-head
-    - rvm: rbx-head
 
 gemfile:
   - gemfiles/rails_3.gemfile
