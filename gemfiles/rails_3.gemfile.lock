@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/jwaldrip/appraisal.git
+  revision: 0fcbe7a856ed6b50bd3ff5eb779afccf26338202
+  specs:
+    appraisal (1.0.0.beta2)
+      bundler
+      rake
+      thor (>= 0.14.0)
+
 PATH
   remote: ..
   specs:
@@ -34,10 +43,6 @@ GEM
     activesupport (3.2.16)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    appraisal (1.0.0.beta2)
-      bundler
-      rake
-      thor (>= 0.14.0)
     arel (3.0.3)
     builder (3.0.4)
     erubis (2.7.0)
@@ -93,7 +98,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  appraisal (~> 1.0.0.beta2)
+  activerecord-jdbcsqlite3-adapter
+  appraisal!
   nested_anything!
   rails (= 3.2.16)
   sqlite3
