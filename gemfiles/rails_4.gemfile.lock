@@ -96,6 +96,7 @@ PLATFORMS
 
 DEPENDENCIES
   appraisal (~> 1.0.0.beta2)
+  bundler
   nested_anything!
   pry
   rails (= 4.0.2)
