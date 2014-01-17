@@ -298,8 +298,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-jdbc-adapter
   activerecord-jdbcsqlite3-adapter
   appraisal!
+  jdbc-sqlite3
   nested_anything!
   psych
   racc

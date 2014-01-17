@@ -12,6 +12,8 @@ group :development, :test do
   end
 
   platforms :jruby do
+    gem 'jdbc-sqlite3'
+    gem 'activerecord-jdbc-adapter'
     gem 'activerecord-jdbcsqlite3-adapter'
   end
  
